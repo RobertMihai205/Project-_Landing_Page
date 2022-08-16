@@ -63,7 +63,12 @@ font-weight: extra-bold;
 }
 
 .top_games {
-    color: #1f2937;    
+    display: flex;
+    flex-direction: column;
+    color: #1f2937;  
+    text-align: center;  
+    align-items: center;
+
 }
 
 button{
@@ -79,4 +84,7 @@ color:#1f2937
     background-color: #e5e7eb;
     font-size: 36px;
     color: #1f2937
+}
+h4 {
+    font-size: 12px;
 }
