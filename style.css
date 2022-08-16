@@ -63,11 +63,13 @@ font-weight: extra-bold;
 }
 
 .top_games {
-    display: flex;
-    flex-direction: column;
+    display: inline-flex;
     color: #1f2937;  
     text-align: center;  
-    align-items: center;
+    gap: 10px;
+    padding:2px;
+    float: bottom;
+    vertical-align: top;
 
 }
 
