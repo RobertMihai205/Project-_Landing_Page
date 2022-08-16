@@ -7,10 +7,28 @@
 font-size: 24px;
 }
 .main{
+    display: flex;
     background-color: #1f2937;
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
+    flex: 1 0 0%;
+    text-align: left;
+    padding: 30px;
+    gap:3px;
+    margin: 22px;
+}
+.sign_up{
+    display:block;
+    vertical-align: left;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.image {
+    vertical-align:top;
+    max-width: 100%;
+    max-height: 300px;
+    margin: auto 0;
 }
 .header {
 display: inline-flex;
@@ -26,6 +44,9 @@ color: white;
 }
 
 .top_games {
+    display: flex;
+    flex: 0;
+    text-align: center;
 color: #1f2937;
 font-size: 36px;
 font-weight: extra-bold;
