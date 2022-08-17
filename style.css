@@ -1,7 +1,5 @@
 * {
-    font-family: Roboto, sans-serif;
-    
-    
+    font-family: Roboto, sans-serif;  
 }
 #Hero {
 font-size: 24px;
@@ -117,7 +115,25 @@ color:#1f2937
 h4 {
     font-size: 12px;
 }
+.subscribe{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3882F6;
+    border-radius: 25px;
+}
+.subscribe_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 footer{
-    margin-top:auto;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    text-align: center;
+    align-items: center;
     
 }
